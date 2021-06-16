@@ -1,16 +1,31 @@
 .sec1 {
   color: black;
   text-align: center;
-  text-transform: uppercase;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 @media (min-width: 991.98px) {
   .sec {
-    margin-top: 90px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 760px) {
+  #flex-box{
+    flex-direction: column;
+  }
+  #left {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+  }
+  .btn{
+    width: 100%;
   }
 }
 
 #flex-box {
   display: flex;
+  padding: 30px 80px;
   /* justify-content: space-between; */
 }
 
@@ -71,4 +86,19 @@
   text-align: left;
   display: grid;
   grid-template-columns: auto auto auto;
+}
+
+.btn{
+  background-color: #D9BF77;
+  color: white;
+  padding: 15px 22px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+h3{
+  font-family: "Montserrat", Arial, sans-serif;
+}
+#nav1{
+  height: 68px;
 }
