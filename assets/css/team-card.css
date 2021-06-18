@@ -56,8 +56,8 @@ grid-template-areas:
     "menu menu menu"
     ". card .";
 width: 100vw;
-padding-top: 40px;
-padding-bottom: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .menu {
