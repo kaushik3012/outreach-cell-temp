@@ -262,7 +262,7 @@ padding: 0 1.25rem;
 .card__name {
 align-self: center;
 justify-self: center;
-margin-bottom: 2px;
+margin-bottom: 0;
 color: white;
 font-size: var(--fontLarge);
 font-weight: var(--fontRegular);
