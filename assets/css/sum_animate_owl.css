@@ -4469,7 +4469,7 @@ a, button {
   color: #d9bf77; }
   a:hover, a:focus, button:hover, button:focus {
     text-decoration: none;
-    color: #d9bf77;
+    color: #fff;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
