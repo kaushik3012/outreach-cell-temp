@@ -16,15 +16,14 @@
 }
 
 @media (max-width: 991.98px) {
-  #flex-box{
+  #flex-box {
     flex-direction: column;
     padding: 0 5%;
   }
 
-  .btn{
+  .btn {
     width: 100%;
   }
-
 }
 
 #right {
@@ -38,7 +37,7 @@
 
 #left {
   padding-right: 50px;
-  padding-left:30px;
+  padding-left: 30px;
   margin-right: 20px;
 }
 
@@ -48,9 +47,10 @@
 }
 
 @media (max-width: 991.98px) {
-    .sec1 {
-      padding-top: 25px;  }
+  .sec1 {
+    padding-top: 25px;
   }
+}
 
 @media (min-width: 991.98px) {
   #ftco-navbar {
@@ -59,27 +59,37 @@
 }
 
 .navbar-expand-lg > .container,
-  .navbar-expand-lg > .container-fluid {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    background-color: black;
-  }
+.navbar-expand-lg > .container-fluid {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  background-color: black;
+}
 
-.container{
+.container {
   max-width: 1580px;
 }
 
 #right .post-title {
-    text-align: center;
+  text-align: center;
 }
 
-.btn{
-  background-color: #D9BF77;
+.btn {
+  width: 100%;
+  background-color: #d9bf77;
   color: white;
-  padding: 15px 22px;
-  font-size: 13px;
+  padding: 12px 20px;
+  font-size: 14px;
   margin-bottom: 8px;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border-color: #fff;
 }
+
+button.btn.btn-block:hover{
+  color: black;
+}
+
 
 .card__profile {
   visibility: hidden;
@@ -94,42 +104,37 @@
 }
 
 .card__footer .btn-group {
-text-align: left;
-display: grid;
-grid-template-columns: auto auto auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .card__job {
   visibility: hidden;
 }
 
-h3{
+h3 {
   font-family: "Montserrat", Arial, sans-serif;
 }
 
-#nav1{
+#nav1 {
   height: 68px;
 }
 
-
 #tabs-text .nav-link {
-  padding:0;
+  padding: 0;
   margin-bottom: 1.5rem;
 }
 
-#right .tab-content > .tab-pane
-{
-    display: none;
+#right .tab-content > .tab-pane {
+  display: none;
 }
 
-#right .tab-content > .active
-{
-    display: block;
+#right .tab-content > .active {
+  display: block;
 }
 
-
-@media (max-width: 991.98px) 
-{
+@media (max-width: 991.98px) {
   #flex-box .row {
     margin: 0 auto;
   }
@@ -146,4 +151,13 @@ h3{
     font-size: 9px;
     padding: 8px 12px;
   }
+}
+
+.d-flex{
+  flex-direction: column !important;
+}
+
+.ftco-navbar-light{
+  padding-left: 0px;
+  padding-right: 0px;
 }
