@@ -1,0 +1,162 @@
+.sec1 {
+  color: black;
+  text-align: center;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+@media (min-width: 991.98px) {
+  .sec {
+    margin-top: 100px;
+  }
+}
+
+#flex-box {
+  display: flex;
+  padding: 30px 80px;
+  /* justify-content: space-between; */
+}
+
+@media (max-width: 991.98px) {
+  #flex-box {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+#right {
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  background: rgb(247 247 247);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#left {
+  padding-right: 50px;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+
+#flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 991.98px) {
+  .sec1 {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  #ftco-navbar {
+    transform: translateY(-10px);
+  }
+}
+
+.navbar-expand-lg > .container,
+.navbar-expand-lg > .container-fluid {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+
+.container {
+  max-width: 1580px;
+}
+
+#right .post-title {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background-color: #d9bf77;
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border-color: #fff;
+}
+
+button.btn.btn-block:hover{
+  color: black;
+}
+
+.card__profile {
+  visibility: hidden;
+}
+
+.card__footer .btn {
+  border-radius: 7px;
+  margin: 0;
+  background: transparent;
+  border: transparent;
+  color: black;
+}
+
+.card__footer .btn-group {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card__job {
+  visibility: hidden;
+}
+
+h3 {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+#nav1 {
+  height: 68px;
+}
+
+#tabs-text .nav-link {
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+#right .tab-content > .tab-pane {
+  display: none;
+}
+
+#right .tab-content > .active {
+  display: block;
+}
+
+@media (max-width: 991.98px) {
+  #flex-box .row {
+    margin: 0 auto;
+  }
+
+  #left {
+    padding: 0%;
+  }
+
+  #left .flex-row {
+    flex-direction: row !important;
+  }
+
+  #tabs-text .btn {
+    font-size: 9px;
+    padding: 8px 12px;
+  }
+}
+
+.d-flex{
+  flex-direction: column !important;
+}
+
+.ftco-navbar-light{
+  padding-left: 0px;
+  padding-right: 0px;
+}

@@ -1,0 +1,63 @@
+.categories{
+  
+    background-color: #f7f7f7;
+}
+/* @media(max-width:991px) and (min-width:768px){
+    .categories{
+        height: 75rem;
+    }
+}
+
+@media(max-width:766px){
+    .categories{
+        height:120rem;
+    }
+} */
+
+.services h4{
+   margin-left: 2rem;
+    padding: 3rem;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 2.5rem;
+}
+
+.service{
+    text-align: center;
+    margin: 1rem 2rem 4rem 0;
+    /* background-color: #e0ebe8; */
+    height: 20rem;
+    padding-top: 2rem;
+    border: ridge #d0d0d0;
+}
+
+.service .sm{
+    font-weight: normal;
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+
+
+
+.icon i{
+   font-size: 3rem;
+    
+}
+
+.service p{
+    margin: 1rem;
+    /* font-family:  'Merriweather', serif; */
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: bold;
+    color: #545454;
+}
+
+
+
+
+
+hr{
+    width: 20%;
+    border-color: black;
+}
+
