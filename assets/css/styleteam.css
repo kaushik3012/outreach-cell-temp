@@ -141,6 +141,7 @@ h3 {
 
   #left {
     padding: 0%;
+    margin: 0;
   }
 
   #left .flex-row {
@@ -148,7 +149,7 @@ h3 {
   }
 
   #tabs-text .btn {
-    font-size: 9px;
+    font-size: 0.6880rem;
     padding: 8px 12px;
   }
 }
