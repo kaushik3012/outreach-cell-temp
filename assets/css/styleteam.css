@@ -56,6 +56,9 @@
   #ftco-navbar {
     transform: translateY(-10px);
   }
+  #footer-left{
+    padding-left: 40px;
+  }
 }
 
 .navbar-expand-lg > .container,
@@ -160,3 +163,7 @@ h3 {
   padding-left: 0px;
   padding-right: 0px;
 }
+.ftco-footer-widget img{
+  padding-left: 25px;
+}
+
