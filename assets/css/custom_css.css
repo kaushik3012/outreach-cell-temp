@@ -61,3 +61,38 @@ hr{
     border-color: black;
 }
 
+
+/* NavBar Styling */
+
+#ftco-navbar .brand-logo img {
+    width: 6vh;
+}
+  
+#ftco-navbar .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media(min-width:991.98px)
+{
+    #ftco-navbar .brand-logo img {
+        width: 50px;
+    }
+}
+
+@media (max-width: 416px) {
+    .navbar-expand-lg > .container > .navbar-toggler {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #ftco-navbar .navbar-brand {
+        margin: 0;
+    }
+}
+
