@@ -75,6 +75,18 @@ hr{
     align-items: center;
 }
 
+.brand-logo-blue {
+    display: none;
+}
+
+.ftco-navbar-light.scrolled .brand-logo-white{
+    display: none;
+}
+
+.ftco-navbar-light.scrolled .brand-logo-blue {
+    display: inline-block;
+}
+
 @media(min-width:991.98px)
 {
     #ftco-navbar .brand-logo img {
