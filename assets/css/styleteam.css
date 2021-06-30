@@ -94,6 +94,10 @@ button.btn.btn-block:hover{
   color: black;
 }
 
+.card {
+  will-change: transform;
+}
+
 .card__profile {
   visibility: hidden;
 }

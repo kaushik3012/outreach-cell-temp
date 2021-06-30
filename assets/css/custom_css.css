@@ -64,11 +64,11 @@ hr{
 
 /* NavBar Styling */
 
-#ftco-navbar .brand-logo img {
+.navbar .brand-logo img {
     width: 35.55px;
 }
   
-#ftco-navbar .navbar-brand {
+.navbar .navbar-brand {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,12 +89,39 @@ hr{
 
 @media(min-width:991.98px)
 {
-    #ftco-navbar .brand-logo img {
+    .navbar .brand-logo img {
         width: 50px;
+    }
+
+    .navbar .container {
+        padding-left: 5px;
+    }
+
+    .navbar .brand-text {
+        margin-left: 10px;
     }
 }
 
-@media (max-width: 416px) {
+@media(max-width:991.98px) {
+    .navbar {
+        padding-left: 0.64rem;
+    }
+
+    .navbar .brand-text {
+        margin-left: 0.36rem;
+    }
+
+    .ftco-navbar-light.scrolled .navbar-brand {
+        padding-left: 13px;
+    }
+
+    .ftco-navbar-light.scrolled .brand-text {
+        margin-left: 7px;
+    }
+}
+
+@media (max-width: 416px) 
+{
     .navbar-expand-lg > .container > .navbar-toggler {
         display: flex;
         flex-wrap: wrap;
@@ -103,7 +130,7 @@ hr{
         padding: 0;
     }
 
-    #ftco-navbar .navbar-brand {
+    .navbar .navbar-brand {
         margin: 0;
     }
 }
