@@ -3,16 +3,25 @@
   text-align: center;
   font-family: "Montserrat", Arial, sans-serif;
 }
+
+.sec1 span {
+  display: inline-block;
+}
+
 @media (min-width: 991.98px) {
   .sec {
     margin-top: 100px;
+  }
+}
+@media (max-width: 991.98px) {
+  .sec1 {
+    padding-top: 25px;
   }
 }
 
 #flex-box {
   display: flex;
   padding: 30px 80px;
-  /* justify-content: space-between; */
 }
 
 @media (max-width: 991.98px) {
@@ -46,27 +55,19 @@
   flex-direction: column;
 }
 
-@media (max-width: 991.98px) {
-  .sec1 {
-    padding-top: 25px;
-  }
+.navbar-dark {
+  background: black !important;
 }
 
 @media (min-width: 991.98px) {
   #ftco-navbar {
-    transform: translateY(-10px);
+    top:0;
   }
   #footer-left{
     padding-left: 40px;
   }
 }
 
-.navbar-expand-lg > .container,
-.navbar-expand-lg > .container-fluid {
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  background-color: black;
-}
 
 .container {
   max-width: 1580px;
@@ -91,6 +92,10 @@
 
 button.btn.btn-block:hover{
   color: black;
+}
+
+.card {
+  will-change: transform;
 }
 
 .card__profile {
@@ -119,9 +124,6 @@ h3 {
   font-family: "Montserrat", Arial, sans-serif;
 }
 
-#nav1 {
-  height: 68px;
-}
 
 #tabs-text .nav-link {
   padding: 0;
@@ -143,6 +145,7 @@ h3 {
 
   #left {
     padding: 0%;
+    margin: 0;
   }
 
   #left .flex-row {
@@ -150,20 +153,11 @@ h3 {
   }
 
   #tabs-text .btn {
-    font-size: 9px;
+    font-size: 0.6880rem;
     padding: 8px 12px;
   }
 }
 
-.d-flex{
+.d-flex {
   flex-direction: column !important;
 }
-
-.ftco-navbar-light{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.ftco-footer-widget img{
-  padding-left: 25px;
-}
-

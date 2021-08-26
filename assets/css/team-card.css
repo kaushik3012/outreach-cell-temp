@@ -1,6 +1,10 @@
 /* GLOBAL VARIABLES */
 :root {
+<<<<<<< HEAD
 --font: "Roboto", sans-serif;
+=======
+--font: "Montserrat", Arial, sans-serif;
+>>>>>>> upstream/master
 --fontOrigin: 1rem;     /* 16px */
 --fontSmall: 0.625em;   /* 10px */
 --fontMedium: 0.875em;  /* 14px */
@@ -31,24 +35,7 @@ to {
 }
 }
 
-* {
-border: 0;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-body {
-font-family: var(--font);
-font-weight: var(--fontOrigin);
-font-size: 1rem;
-line-height: 1.2;
-letter-spacing: 0.005rem;
--webkit-font-smoothing: subpixel-antialiased;
-font-smoothing: subpixel-antialiased;
-}
-
-.wrapper {
+#right .wrapper {
 display: grid;
 grid-template-columns: repeat( auto-fit, 1fr );
 grid-template-rows: auto;
@@ -58,50 +45,6 @@ grid-template-areas:
 width: 100vw;
 padding-top: 20px;
 padding-bottom: 20px;
-}
-
-.menu {
-grid-area: menu;
-align-self: end;
-}
-
-.menu__list {
-text-align: center;
-}
-
-.menu__item {
-position: relative;
-display: inline-block;
-padding: 10px 20px;
-font-size: var(--fontMedium);
-font-weight: var(--fontRegular);
-text-transform: uppercase;
-color: #a9a9a9;
-cursor: pointer;
--webkit-transition: all var(--speed) ease;
-transition: all var(--speed) ease;
-}
-
-.menu__item::after {
-content: "";
-display: block;
-width: 0;
-height: 2px;
-margin-top: 6px;
-background: rgba(100, 100, 250, 1);
--webkit-transition: all var(--speed) ease;
-transition: all var(--speed) ease;
-}
-
-.menu__item:hover {
-color: rgba(150, 150, 255, 1);
-}
-.menu__item.active {
-color: rgba(100, 100, 250, 1);
-}
-
-.menu__item.active::after {
-width: 100%;
 }
 
 .card {
