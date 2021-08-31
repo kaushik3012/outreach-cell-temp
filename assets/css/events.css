@@ -3,6 +3,9 @@
     font-family: "Rubik", sans-serif;
 }
 
+
+/* Card Styles */
+
 .wrapper{
     display: flex;
     width: 70%;
@@ -105,4 +108,35 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+}
+
+
+/* Modal Styles */
+
+.modal-body{
+    padding:0;
+}
+
+.modal-body img{
+    width:-webkit-fill-available;
+}
+
+.modal-body .event-desc {
+    padding: 1rem;
+}
+
+.modal-content{
+    border:0;
+    border-radius: 1rem;
+}
+
+
+/* Container Styles */
+
+#main-container {
+    margin-bottom: 1.875rem;
+}
+
+#main-container .wrapper {
+    margin: 1.875rem 0;
 }
