@@ -1,7 +1,7 @@
-*{
+/* *{
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
-}
+} */
 
 
 /* Card Styles */
@@ -37,8 +37,11 @@
 
 .card-title{
     position: absolute;
-    margin-top: 190px;
-    margin-left: 10px;
+    margin-top: 170px;
+    /* margin-top: 190px; */
+    /* margin-left: 10px; */
+    right: 0;
+    left: 0;
     opacity: 1;
     z-index: 1;
     color: white;
@@ -122,7 +125,7 @@
 }
 
 .modal-body .event-desc {
-    padding: 1rem;
+    padding: 1rem 1.3rem;
 }
 
 .modal-content{
@@ -135,6 +138,7 @@
 
 #main-container {
     margin-bottom: 1.875rem;
+    padding: 0 40px;
 }
 
 #main-container .wrapper {
